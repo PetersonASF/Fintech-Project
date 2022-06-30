@@ -1,0 +1,32 @@
+form {
+    background: rgba(220, 20, 63, 1);
+    border-radius: 50px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0px solid rgba(220, 20, 63, 0.3);
+}
+
+
+.container-fluid {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: 5px solid rgba(220, 20, 63, 0.3);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/pexels.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+strong {
+    color: #dc143f;
+}

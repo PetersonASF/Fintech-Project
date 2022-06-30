@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/pexels-590016.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    border: 5px solid rgba(220, 20, 63, 0.3);
+    color: black !important;
+}
+
+.container {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    border: 5px solid rgba(220, 20, 63, 0.3);
+    color: black;
+    row-gap: 3;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-shadow: #dc143f;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    border-radius: 12 !important;
+}
+
+strong {
+    color: #dc143f !important;
+}
